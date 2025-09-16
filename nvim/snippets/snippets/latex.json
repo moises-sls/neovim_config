@@ -249,8 +249,9 @@
         "body": [
             "\\begin{figure}[${1:htbp}]",
             "    \\centering",
-            "    ${2}",
-            "    \\caption{${3:<caption>}}\\label{${4:<label>}}",
+            "    \\includegraphics[width=${2:0.5}\\linewidth]{${3}}",
+            "    \\caption{${4:<caption>}}",
+            "    \\label{${5:<label>}}",
             "\\end{figure}"
         ],
         "description": "figure"
